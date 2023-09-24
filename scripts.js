@@ -15,11 +15,6 @@ const handleAddTask = () => {
 }
 
 
-// Aqui começa a dar erro 
-addTaskButton.addEventListener("click",() => handleAddTask ());
-inputElement.addEventListener("change",() => handleInputChange ());
-
-
 const taskItemContainer = document.createElement("div");
 taskItemContainer.classList.add("task-item");
 
@@ -52,4 +47,7 @@ updateLocalStorage();
 function newFunction() {
     return ".tasks-container";
 }
+
+addTaskButton.addEventListener("click",() => handleAddTask ());
+inputElement.addEventListener("change",() => handleInputChange ());
 
