@@ -15,7 +15,7 @@ const handleAddTask = () => {
 }
 
 
-
+// Aqui começa a dar erro 
 addTaskButton.addEventListener("click",() => handleAddTask ());
 inputElement.addEventListener("change",() => handleInputChange ());
 
